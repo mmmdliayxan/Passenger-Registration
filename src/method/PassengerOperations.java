@@ -1,3 +1,10 @@
+package method;
+
+import config.Config;
+import exception.SameSeatNumber;
+import passenger.Passenger;
+import program.Main;
+
 import java.util.Arrays;
 
 public class PassengerOperations {
@@ -137,7 +144,7 @@ public class PassengerOperations {
                                     case "surname" -> passenger.setSurname(Required.requiredText("Enter the surname:"));
                                     case "age" -> passenger.setAge(Required.requiredNumber("Enter the age:"));
                                     case "seatNumber" -> passenger.setSeatNumber(Required.requiredNumber("Enter the seatNumber"));
-                                    default -> System.out.println("Passenger hasn't any field like this");
+                                    default -> System.out.println("passenger.Passenger hasn't any field like this");
                                 }
                             }
                         }

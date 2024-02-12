@@ -1,3 +1,5 @@
+package passenger;
+
 public class Passenger {
     private String name;
     private String surname;
@@ -38,7 +40,7 @@ public class Passenger {
 
     @Override
     public String toString() {
-        return "Passenger{" +
+        return "passenger.Passenger{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", age=" + age +
